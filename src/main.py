@@ -1,6 +1,15 @@
 import random
 
+# functions and variables for Rock, Paper, Scissors
 choice = ['r', 'p', 's']
+# function to return whole word instead of letter
+def returnWord(letter):
+    if letter == 'r':
+        return 'Rock'
+    elif letter == 'p':
+        return 'Paper'
+    elif letter == 's':
+        return 'Scissors'
 # function to input player choice and return its value
 def getPlayerChoice():
     playerChoice = input("""Choose Your Move
@@ -20,11 +29,23 @@ def getComputerChoice():
     return computerChoice
 # function that returns result
 def returnResult(player, computer):
+    print('Player: ', returnWord(player))
+    print('Computer: ', returnWord(computer))
     if player == computer:
         return [0, 0]
     elif (player == 'r' and computer == 's') or (player == 'p' and computer == 'r') or (player == 's' and computer == 'p'):
         return [1, 0]
     else:
         return [0, 1]
-    
+
+
 # main
+while True:
+    result = returnResult(getPlayerChoice(), getComputerChoice())
+    if result[0] == result[1]:
+        print('It\'s a DRAW!')
+    elif result[0] == 1:
+        print('You WIN!')
+    else:
+        print('You LOSE!')
+    input('\nPress Enter to Return...\n\n')
