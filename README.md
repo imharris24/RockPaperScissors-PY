@@ -6,7 +6,7 @@ Rock, Paper, Scissors game created using basics of Python.
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/imharris24/RockPaperScissors-PY/main/screenshot/screenshot1.png)
+![App Screenshot](https://github.com/imharris24/RockPaperScissors-PY/blob/main/screenshot/screenshot1.png)
 
 
 ## Tech Stack
