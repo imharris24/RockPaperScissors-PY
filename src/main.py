@@ -25,9 +25,11 @@ def getPlayerChoice():
     return playerChoice
 # function to generate computer choice and return its value
 def getComputerChoice():
-    computerChoice = random.choice(choice)
-    return computerChoice
+    return random.choice(choice)
 # function that returns result
+# [0, 0] = DRAW
+# [1, 0] = Player WIN
+# [0, 1] = Computer WIN
 def returnResult(player, computer):
     print('Player: ', returnWord(player))
     print('Computer: ', returnWord(computer))
