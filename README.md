@@ -24,7 +24,7 @@
     <a href="https://github.com/imharris24/RockPaperScissors-PY"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/imharris24/RockPaperScissors-PY">View Demo</a>
+    <a href="https://github.com/imharris24/RockPaperScissors-PY/tree/main/src">View Demo</a>
     ·
     <a href="https://github.com/imharris24/RockPaperScissors-PY/issues">Report Bug</a>
     ·
