@@ -113,4 +113,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 MUHAMMAD HARRIS - [@im_harrisg](https://instagram.com/im_harrisg) - harris20014@gmail.com
 
 Project Link: [Rock, Paper, Scissors](https://github.com/imharris24/RockPaperScissors-PY)
-
